@@ -1,0 +1,135 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: #f5f4f7; 
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1500px;
+    padding: 100px;
+}
+
+header img{
+    max-width: 250px;
+}
+
+header p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dualSense{
+    display: flex;
+    justify-content: center;
+    line-height: 90px;
+}
+
+.dualSense p{
+    font-size: 45px;
+}
+
+.dualSense span{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.profiles{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px; 
+    background-color: #FFF; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.profile span{
+    font-size: 100px;
+}
+
+.create-user, .user-name{
+    padding: 30px 0 10px 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-profile{
+    font-size: 20px;
+}
+
+.profile-active{
+    width: 400px;
+    height: 500px; 
+    background: linear-gradient(to bottom, #bfbce7, #302f34);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    padding: 20px;     
+}
+
+.profile-active img{
+    margin: -70px;
+}
+
+.info{
+    padding: 90px 0 20px 0;
+}
+
+.user-selected{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;  
+}
+
+.last-online{
+    color: #FFF;
+    padding: 10px 0 5px 0;
+    font-size: 20px;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #FFF;
+    border-radius: 50px;
+    background-color: #256fe7;
+    padding: 10px 20px; 
+}
+
+
+.btn span{
+    font-size: 40px;
+}
+
+.btn p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
